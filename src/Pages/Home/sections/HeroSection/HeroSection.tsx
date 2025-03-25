@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material"
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground"
 import Typewriter from "../../../../components/Typewriter/Typewriter"
-import Avatar from "../../../../assets/images/avatar.jpg"
+import Avatar from "../../../../assets/images/avatar.jpeg"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
 
     const StyledImg = styled("img")(({ theme }) => ({
         width: "80%",
-        border: `1px solid ${theme.palette.primary.contrastText}`,
+        border: `2px solid ${theme.palette.primary.contrastText}`,
         borderRadius: "50%",
         position: "relative"
     }));
@@ -73,7 +73,7 @@ const HeroSection: React.FC = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" pb={2} textAlign="center">
-                                Adriana Saty
+                                Brenno Soares
                             </Typography>
                             <Typewriter text="I'm a Software Engineer" delay={120} variant="h2" color="primary.contrastText" />
                             <Box mt={3}>

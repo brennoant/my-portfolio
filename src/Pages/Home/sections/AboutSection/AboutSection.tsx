@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
     }));
 
     const skillsSet = [
-        "Javascript", "Typescript", "React", "Next", "Git", "HTML", "CSS", "Cypress", "AWS", "GCP", "Material UI", "Figma"
+        "Javascript", "Typescript", "React", "Git", "HTML", "CSS", "C", "Material UI", "Figma"
     ]
 
     return (
@@ -30,7 +30,7 @@ const AboutSection: React.FC = () => {
                             <StyledCard variant="outlined">
                                 <WorkspacePremiumIcon />
                                 <Typography textAlign="center" fontWeight={600}>Experience</Typography>
-                                <Typography textAlign="center">1+ years</Typography>
+
                                 <Typography textAlign="center">Frontend Development</Typography>
                             </StyledCard>
                         </AnimationComponent>
@@ -40,8 +40,7 @@ const AboutSection: React.FC = () => {
                             <StyledCard variant="outlined">
                                 <SchoolIcon />
                                 <Typography textAlign="center" fontWeight={600}>Education</Typography>
-                                <Typography textAlign="center">Bachelors Degree</Typography>
-                                <Typography textAlign="center">Electrical Engineer</Typography>
+                                <Typography textAlign="center">2nd semester of Software Engineering</Typography>
                             </StyledCard>
                         </AnimationComponent>
 
@@ -49,17 +48,11 @@ const AboutSection: React.FC = () => {
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras porta semper velit vel rutrum.
-                        Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
-                        Phasellus a ultrices elit.
-                        Curabitur ut diam eu orci auctor pretium.
-                        Nullam ultricies erat quam, eget porta velit vehicula sit amet.
-                        Nullam sodales iaculis metus, sed vestibulum nisl vulputate at.
-                        Integer in pulvinar libero.
-                        Donec ornare est quis tortor varius efficitur.
-                        Maecenas sed erat quis felis facilisis pellentesque.
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id felis convallis, luctus lorem eget, varius dolor.
+                        I am a Software Engineering student, currently in my second semester of college.
+                        I have a strong interest in system development, programming, and innovative technological solutions.
+                        I enjoy exploring new languages and methodologies to enhance my skills in the field.
+                        I am always eager to learn and deepen my knowledge of software engineering principles, from architecture to code optimization.
+                        My goal is to build efficient and scalable solutions, contributing to technological advancement.
                     </Typography>
                 </Box>
                 <hr />
